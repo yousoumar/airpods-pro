@@ -1,0 +1,57 @@
+.comfort {
+  text-align: center;
+
+  > figure {
+    width: 3008px;
+    height: 1289px;
+    background-size: 3008px 1289px;
+    background-repeat: no-repeat;
+    background-image: url("../images/static_lifestyle_magic__bggme0gpqqb6_large_2x.jpeg");
+    left: 50%;
+    margin-left: -1504px;
+    position: relative;
+  }
+
+  .content {
+    > div {
+      padding-top: 12rem;
+      font-size: 21px;
+      line-height: 1.19048;
+      font-weight: 700;
+      letter-spacing: 0.0055em;
+    }
+
+    h3 {
+      font-size: 96px;
+      line-height: 0.875;
+      font-weight: 700;
+      letter-spacing: 0;
+      margin: 1rem 0;
+    }
+
+    p {
+      font-size: 26px;
+      line-height: 1.15385;
+      font-weight: 700;
+      letter-spacing: 0.002em;
+      width: 66.66667%;
+      margin: 0 auto;
+      padding-top: 40px;
+      padding-bottom: 100px;
+    }
+
+    .sticky-copy-lockup {
+      width: 986px;
+      height: 583px;
+      margin: 0 auto;
+    }
+
+    figure {
+      width: 986px;
+      height: 583px;
+      background-size: 986px 583px;
+      background-repeat: no-repeat;
+      background-image: url("../images/static_comfort__hpa4w2unnt26_large_2x.jpeg");
+    }
+  }
+}

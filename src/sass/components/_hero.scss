@@ -1,0 +1,36 @@
+.hero {
+  font-weight: 700;
+  text-align: center;
+
+  h1 {
+    font-size: 150px;
+    letter-spacing: -0.008em;
+    text-align: center;
+    margin-top: 4.5rem;
+  }
+
+  .watch-jump {
+    font-size: 22px;
+    display: block;
+  }
+
+  figure {
+    background-image: url("../images/static_hero_airpodspro__cgozkyv8zgc2_large_2x.jpeg");
+    width: 1141px;
+    height: 758px;
+    background-size: 1141px 758px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    font-size: 64px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 8rem 0;
+  }
+
+  p:not(:first-child) {
+    margin-top: 3rem;
+  }
+}
