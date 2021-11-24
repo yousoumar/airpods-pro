@@ -13,6 +13,7 @@
   .watch-jump {
     font-size: 22px;
     display: block;
+    margin: 2rem 0;
   }
 
   figure {
@@ -48,13 +49,53 @@
 
   @media only screen and (max-width: 1023px) {
     & {
+      h1 {
+        font-size: 96px;
+        line-height: 1.04167;
+        font-weight: 700;
+        letter-spacing: -0.008em;
+      }
+
       figure {
-        background-image: url("../images/static_hero_airpodspro__cgozkyv8zgc2_large.jpeg");
         background-size: cover;
         background-position: center;
         width: 100%;
+        height: 100%;
         left: 0;
         margin: 0 auto;
+
+        &::after {
+          content: "";
+          display: block;
+          padding-bottom: 66.43295%;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 734px) {
+    & {
+      h1 {
+        font-size: 62px;
+        line-height: 1.09703;
+        font-weight: 700;
+        letter-spacing: 0;
+      }
+
+      .hero-text {
+        font-size: 32px;
+        line-height: 1.1875;
+        font-weight: 700;
+        letter-spacing: 0;
+        padding: 4rem 0;
+      }
+
+      figure {
+        background-image: url("../images/static_hero_airpodspro__cgozkyv8zgc2_small.jpeg");
+
+        &::after {
+          padding-bottom: 109.1195%;
+        }
       }
     }
   }
