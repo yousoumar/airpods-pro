@@ -1,6 +1,7 @@
 .hero {
   font-weight: 700;
   text-align: center;
+  overflow: hidden;
 
   h1 {
     font-size: 150px;
@@ -19,8 +20,10 @@
     width: 1141px;
     height: 758px;
     background-size: 1141px 758px;
+    position: relative;
     background-repeat: no-repeat;
     margin: 0 auto;
+    display: block;
   }
 
   .hero-text {
@@ -32,5 +35,27 @@
 
   p:not(:first-child) {
     margin-top: 3rem;
+  }
+
+  @media only screen and (max-width: 10240px) {
+    & {
+      figure {
+        left: 50%;
+        margin-left: -570.5px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1023px) {
+    & {
+      figure {
+        background-image: url("../images/static_hero_airpodspro__cgozkyv8zgc2_large.jpeg");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        left: 0;
+        margin: 0 auto;
+      }
+    }
   }
 }

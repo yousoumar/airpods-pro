@@ -1,5 +1,6 @@
 .comfort {
   text-align: center;
+  overflow: hidden;
 
   > figure {
     width: 3008px;
@@ -10,6 +11,7 @@
     left: 50%;
     margin-left: -1504px;
     position: relative;
+    overflow: hidden;
   }
 
   .content {
@@ -37,13 +39,22 @@
       width: 66.66667%;
       margin: 0 auto;
       padding-top: 40px;
-      padding-bottom: 100px;
+
+      &.left {
+        margin-left: 81px;
+        flex-basis: 41.66667%;
+        max-width: 41.66667%;
+        margin-top: 0;
+        font-size: 22px;
+        line-height: 1.18182;
+      }
     }
 
     .sticky-copy-lockup {
       width: 986px;
       height: 583px;
       margin: 0 auto;
+      text-align: left;
     }
 
     figure {
@@ -52,6 +63,19 @@
       background-size: 986px 583px;
       background-repeat: no-repeat;
       background-image: url("../images/static_comfort__hpa4w2unnt26_large_2x.jpeg");
+    }
+
+    .copy-block {
+      margin-top: -240px;
+      display: flex;
+
+      > div {
+        width: 220px;
+        font-size: 17px;
+        line-height: 1.35296;
+        font-weight: 700;
+        letter-spacing: 0.0045em;
+      }
     }
   }
 }
